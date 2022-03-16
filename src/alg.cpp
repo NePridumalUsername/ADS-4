@@ -22,8 +22,7 @@ while (left < right) {
 maxPart = (left + right) / 2;
 if (arr[maxPart] > value) {
 right = maxPart;
-}
-else {
+} else {
 left = maxPart + 1;
 }
 }
@@ -54,8 +53,7 @@ while (left < right) {
 mid = (left + right) / 2;
 if (arr[mid] > value) {
 right = mid;
-}
-else {
+} else {
 left = mid + 1;
 }
 }
@@ -66,8 +64,7 @@ while (left < right) {
 int mid = (left + right) / 2;
 if (arr[mid] < tempValue2) {
 left = mid + 1;
-}
-else {
+} else {
 right = mid;
 }
 }
